@@ -1,0 +1,6 @@
+name: VLevels
+author: veksiak
+version: '1.0'
+main: veksiak.vlevels.VLevels
+api-version: '1.20'
+load: STARTUP
