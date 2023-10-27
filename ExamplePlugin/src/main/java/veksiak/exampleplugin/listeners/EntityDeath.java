@@ -28,27 +28,27 @@ public class EntityDeath implements Listener {
                     hunting.addXP(killer, 50);
                     break;
                 case CAVE_SPIDER:
-                    hunting.addXP(killer, 200);
-                    break; //TODO: Unchange this
+                    hunting.addXP(killer, 2);
+                    break;
                 case SPIDER:
                 case SILVERFISH:
-                    hunting.addXP(killer, 100);
+                    hunting.addXP(killer, 1);
                     break;
                 case ZOMBIE:
                 case SKELETON:
-                    hunting.addXP(killer, 4000);
+                    hunting.addXP(killer, 4);
                     break;
                 case CREEPER:
-                    hunting.addXP(killer, 500);
+                    hunting.addXP(killer, 5);
                     break;
                 case ENDERMITE:
                 case STRAY:
-                    hunting.addXP(killer, 800);
+                    hunting.addXP(killer, 8);
                     break;
                 case ENDERMAN:
                 case DROWNED:
                 case GUARDIAN:
-                    hunting.addXP(killer, 600);
+                    hunting.addXP(killer, 6);
                     break;
             }
         }
