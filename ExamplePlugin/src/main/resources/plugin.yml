@@ -1,0 +1,9 @@
+name: ExamplePlugin
+author: veksiak
+version: '1.0'
+depend: [ 'VLevels' ]
+main: veksiak.exampleplugin.ExamplePlugin
+api-version: '1.20'
+load: STARTUP
+commands:
+  setxp:
