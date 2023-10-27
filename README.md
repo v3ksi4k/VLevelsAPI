@@ -1,5 +1,5 @@
 # VLevelsAPI
-VLevelsAPI is a simple API for setting up a leveling system on a minecraft server. It features saving and auto saving.
+VLevelsAPI is a simple API for setting up a leveling system on a minecraft server.
 
 Docs: https://v3ksi4k.github.io/VLevelsAPI/
 ## Example Plugin
