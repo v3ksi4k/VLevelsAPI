@@ -57,10 +57,9 @@ public final class MutableLevelStructure implements LevelStructure {
             for (int i = 3; i <= preGenerate; i++) {
                 xp = calculateNext(xp, i);
                 definedLevels.put(i, xp);
-                Bukkit.getLogger().info("LEVEL: " + i + ", XP: " + xp); //TODO: REMOVE THIS
             }
         } else if (!infinite && !(preGenerate == 2)) {
-            throw new IllegalArgumentException("preGenerate can't be less than 2 when infinite is set to true. Plugin: " + pluginName);
+            throw new IllegalArgumentException("preGenerate can't be less than 2 when infinite is set to false. Plugin: " + pluginName);
         }
     }
 
